@@ -7055,6 +7055,317 @@ export const posts: BlogPost[] = [
       "tank-cleaning-maintenance",
     ],
   },
+  {
+    slug: "septic-tank-size-guide",
+    title: "Septic Tank Size Guide: What Size Do You Need for Your Home?",
+    metaTitle: "Septic Tank Size Guide: What Size Do You Need? | Eagle Septic",
+    metaDescription:
+      "Most 3-bedroom homes need a 1,000-gallon septic tank. Learn how tank size is calculated by bedrooms, occupants, and water usage — plus California minimum requirements.",
+    publishedAt: "2026-02-20",
+    updatedAt: "2026-02-20",
+    category: "Education",
+    readingTime: "8 min read",
+    excerpt:
+      "Tank size is one of the most consequential decisions in a septic system — and one of the most commonly misunderstood. Here's how to determine the right size for your household, what California code requires, and what happens when a tank is undersized.",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Residential property with large green lawn indicating underground septic system installation",
+    },
+    sections: [
+      {
+        type: "paragraph",
+        text: "If you're installing a new septic system, replacing a tank, or buying a property and wondering whether the existing system can handle your household — tank size is a critical variable. Too small and the tank fills faster than bacteria can break waste down, leading to more frequent pump-outs, backups, and premature drain field failure. Too large isn't really a problem, but it costs more upfront and can result in slower bacterial activity if the tank is consistently under-loaded.",
+      },
+      {
+        type: "paragraph",
+        text: "This guide explains how septic tank sizes work, how the right size is calculated for a given property, what California code requires, and how to determine the size of your current tank if you don't know it.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Septic Tank Size by Bedroom Count: Quick Reference",
+      },
+      {
+        type: "paragraph",
+        text: "In California, septic tank minimum size requirements are set by bedroom count — not by the actual number of occupants. This is a conservative standard designed to account for full occupancy. The following are the California minimum sizes under Title 27 of the California Code of Regulations and local county health codes used across the Central Valley:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "1–2 bedroom home: 750-gallon minimum (most counties require 1,000 gallons as practical minimum)",
+          "3 bedroom home: 1,000 gallons",
+          "4 bedroom home: 1,200–1,500 gallons",
+          "5 bedroom home: 1,500 gallons",
+          "6 bedroom home: 1,750–2,000 gallons",
+          "7+ bedroom home or high-use property: 2,000+ gallons; consult county health department",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "1,000 gallons is the practical standard for most Central Valley homes",
+        text: "Even if your home technically qualifies for a 750-gallon tank, most septic contractors in Stanislaus, Merced, and San Joaquin counties install 1,000-gallon tanks as the baseline. A 1,000-gallon tank costs modestly more than a 750-gallon unit but provides significantly more buffer for peak usage days and bacterial activity.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Septic Tank Size Is Actually Calculated",
+      },
+      {
+        type: "paragraph",
+        text: "Bedroom count is a proxy for one real variable: daily wastewater flow. California design standards assume approximately 150 gallons of wastewater per day per bedroom (based on assumed two occupants per bedroom). This figure drives the minimum tank capacity calculation.",
+      },
+      {
+        type: "paragraph",
+        text: "The standard design rule is that a septic tank should hold at least two to three days of peak wastewater flow. For a three-bedroom home with an assumed daily flow of 450 gallons (3 × 150), a tank that holds 1,000 gallons provides roughly two days of buffer — meeting the minimum threshold.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Factors That Can Push You Toward a Larger Tank",
+      },
+      {
+        type: "paragraph",
+        text: "Bedroom count gives you the code minimum — but several real-world factors may justify going larger:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Actual occupant count exceeds the assumed two-per-bedroom ratio (large families, multi-generational households)",
+          "High-volume appliances: garbage disposals significantly increase solids load; hot tubs or large soaking tubs increase daily water volume",
+          "Short-term rental or vacation property with variable high-occupancy periods",
+          "Water softeners that discharge backwash into the septic system",
+          "Home-based businesses that generate wastewater (salons, laundry services, food prep)",
+          "Future addition plans — if you may add bedrooms, size for the finished home now",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Garbage disposals require a larger tank",
+        text: "California's regulatory guidance recommends increasing minimum tank capacity by 50% when a garbage disposal is in use. A 1,000-gallon tank for a three-bedroom home with a garbage disposal should ideally be 1,500 gallons. Food solids overwhelm bacterial activity and fill tanks significantly faster than wastewater alone.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Four Most Common Residential Septic Tank Sizes",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "750-Gallon Tank",
+      },
+      {
+        type: "paragraph",
+        text: "The smallest tank commonly used in residential applications. Appropriate only for very small homes (one bedroom, low-occupancy) and only where soil conditions and drain field sizing are also optimized. In practice, 750-gallon tanks are rarely installed new in California anymore — the cost savings over a 1,000-gallon unit are modest, and most counties and contractors default to 1,000 gallons as the minimum. If your home has an older 750-gallon tank, expect to pump it more frequently — potentially every one to two years with even moderate use.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "1,000-Gallon Tank",
+      },
+      {
+        type: "paragraph",
+        text: "The standard tank for most residential installations in California's Central Valley. Suitable for two- to three-bedroom homes with conventional water use and no garbage disposal. A 1,000-gallon tank for a typical family of four should be pumped every three to four years. This is the most commonly replaced and installed size, which means it's widely available and competitively priced. Most concrete, fiberglass, and polyethylene tank manufacturers have 1,000-gallon units in regular inventory.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "1,500-Gallon Tank",
+      },
+      {
+        type: "paragraph",
+        text: "The practical choice for four-bedroom homes, homes with garbage disposals, households with more occupants than bedrooms suggest, or properties where extended pump-out intervals are desirable. A 1,500-gallon tank for a family of five can often go four to five years between pump-outs under normal use. The installed cost of a 1,500-gallon tank is $500–$1,500 more than a 1,000-gallon unit — a reasonable investment over the life of the system.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "2,000-Gallon Tank (and Larger)",
+      },
+      {
+        type: "paragraph",
+        text: "Required for large homes (five or more bedrooms), commercial properties, or sites with atypical water use. Two-thousand-gallon tanks are also used when a single large tank is more practical than two smaller tanks for a given property. Above 2,000 gallons, tanks are often custom-ordered or configured as two interconnected tanks. Commercial applications — restaurants, small businesses, event venues — require a site-specific engineered design rather than a simple bedroom-count formula.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Single-Compartment vs. Two-Compartment Tanks",
+      },
+      {
+        type: "paragraph",
+        text: "Modern septic tanks — whether concrete, fiberglass, or polyethylene — are typically two-compartment designs. The first, larger compartment (roughly 67–75% of total volume) is where primary settling occurs: solids sink to form sludge and lighter materials float as scum. The liquid effluent passes through an internal baffle into the second, smaller compartment, where additional settling takes place before effluent exits to the drain field.",
+      },
+      {
+        type: "paragraph",
+        text: "Two-compartment tanks are standard in California because they produce cleaner effluent and protect the drain field from solids carryover. If your property has an older single-compartment tank, consider upgrading when it's due for replacement — the two-compartment design extends drain field life significantly.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "California Sizing Requirements: What the Code Actually Says",
+      },
+      {
+        type: "paragraph",
+        text: "In California, septic tank design is governed by the California Plumbing Code and local county environmental health regulations. Stanislaus, Merced, and San Joaquin counties — which cover most of the Central Valley — follow California Department of Public Health (now CDPH/CalRecycle) guidelines with county-specific additions.",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Minimum residential tank: 1,000 gallons in most Central Valley counties regardless of bedroom count",
+          "Bedroom-based sizing: 150 gallons per bedroom per day × 2 days minimum holding time",
+          "Garbage disposal add: 50% capacity increase over the bedroom-based minimum",
+          "Two-compartment design: required for new installations in most California counties",
+          "Inspection required: all new tank installations require permit, inspection, and sign-off before backfilling",
+          "Material standards: concrete, fiberglass, and HDPE are all permitted; steel tanks are prohibited for new installs",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Always verify with your county health department",
+        text: "While California state code provides the framework, individual counties have latitude to impose stricter standards. Stanislaus County Environmental Resources, Merced County Department of Public Health, and San Joaquin County Environmental Health each have their own requirements for setbacks, minimum sizes, and inspection procedures. Your septic contractor should pull the permit and handle the county process — but confirm the sizing meets current local code, not just state minimums.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Signs Your Septic Tank Is Too Small",
+      },
+      {
+        type: "paragraph",
+        text: "If your tank was undersized at installation — or if your household has grown since the system was designed — you may notice symptoms before a formal assessment confirms the problem:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Needing pump-outs more often than every two to three years under normal use",
+          "Slow drains throughout the house, especially after periods of high water use",
+          "Gurgling sounds from drains or toilets when other plumbing fixtures are running",
+          "Sewage odors indoors or near the tank and drain field area",
+          "Wet or unusually lush green areas over the drain field — a sign of system overload",
+          "Sewage backing up into the lowest drains in the house",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If you're seeing multiple symptoms, the first step is a pump-out and inspection — not because pumping solves an undersized tank problem, but because inspection during pumping can confirm the tank's condition, capacity, and baffle status. If the tank itself is structurally sound, the real solution for an undersized tank is adding a second tank in series to increase total capacity, or full replacement with a properly sized unit.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to Find Out What Size Septic Tank You Have",
+      },
+      {
+        type: "paragraph",
+        text: "If you don't know your tank's size, there are several ways to find out — without digging:",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Check your county permit records: In Stanislaus, Merced, and San Joaquin counties, septic permits are public records. Search the county environmental health department's online permit portal by address — most original installations include tank size in the permit file.",
+          "Review your home inspection report: If you bought the home in the last 10–15 years and had a septic inspection, the report should specify tank size and material.",
+          "Ask the previous pump-out company: Any licensed septic pumper that has serviced your tank should have records. The tank size is typically recorded at each service visit.",
+          "Check for stamped markings on the tank lid or riser: Many concrete tanks have the gallon capacity stamped into the lid or the riser ring at the time of manufacturing.",
+          "Measure the tank dimensions: If the tank is accessible, a contractor can measure interior dimensions and calculate volume. For a rectangular tank: length × width × depth (in feet) × 7.48 = gallons. Round or oval tanks require a different calculation.",
+          "Schedule an inspection: A licensed septic inspector or pumper can assess the tank during a service visit and document the capacity.",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "Permit records are the fastest starting point",
+        text: "Most homeowners in the Central Valley can find their original septic permit online through their county's environmental health portal within five minutes. The permit application typically specifies tank size, number of bedrooms, and drain field square footage — all critical information for understanding your system's design capacity.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Septic Tank Size and Pump-Out Frequency",
+      },
+      {
+        type: "paragraph",
+        text: "Tank size directly affects how often you need to pump. A larger tank accumulates sludge and scum more slowly relative to the liquid volume — giving bacteria more time to break down solids before levels reach the critical threshold. The EPA and septic industry standard is to pump when combined sludge and scum layers occupy more than one-third of the tank's working volume.",
+      },
+      {
+        type: "paragraph",
+        text: "Approximate pump-out intervals based on tank size and household size (four occupants as the baseline):",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "750-gallon tank, 4 occupants: pump every 1–2 years",
+          "1,000-gallon tank, 4 occupants: pump every 3–4 years",
+          "1,500-gallon tank, 4 occupants: pump every 4–5 years",
+          "2,000-gallon tank, 4 occupants: pump every 5–7 years",
+          "1,000-gallon tank, 2 occupants: pump every 5–6 years",
+          "1,000-gallon tank, 6 occupants: pump every 2–3 years",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These are guidelines, not guarantees. Actual accumulation rates depend on what goes down the drains, whether a garbage disposal is used, water softener discharge, and the bacterial health of the tank. The only way to know for certain when your tank needs pumping is to have it inspected — which is why including an inspection with each pump-out is always recommended.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions About Septic Tank Sizes",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "What size septic tank do I need for a 3 bedroom house?",
+      },
+      {
+        type: "paragraph",
+        text: "California code requires a minimum 1,000-gallon tank for a three-bedroom home. This is also the practical standard across most Central Valley counties. If your home has a garbage disposal or you expect higher-than-average occupancy, a 1,500-gallon tank is a better choice and only costs modestly more.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Is a 1,000-gallon septic tank big enough for a family of 5?",
+      },
+      {
+        type: "paragraph",
+        text: "It depends on the home's bedroom count. A 1,000-gallon tank technically meets code for a three-bedroom home — but with five occupants, you'll accumulate sludge faster than the two-per-bedroom design assumption. Expect pump-outs every two to three years rather than three to four, and consider upgrading to a 1,500-gallon tank if the existing tank is due for replacement.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can I add a second tank to increase capacity?",
+      },
+      {
+        type: "paragraph",
+        text: "Yes. Adding a second tank in series is a common and cost-effective solution when an existing tank is undersized or when you're adding bedrooms to a home. The second tank is installed downstream of the first, increasing total holding volume and providing additional treatment before effluent reaches the drain field. This typically requires a permit and inspection in California counties.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Does a larger septic tank mean I never have to pump it?",
+      },
+      {
+        type: "paragraph",
+        text: "No. Every septic tank accumulates sludge that bacteria cannot fully break down — it must be physically removed by pumping. A larger tank extends the interval between pump-outs, but doesn't eliminate the need. Skipping pump-outs regardless of tank size leads to solids carryover into the drain field, which is the most common cause of expensive drain field failure.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "What's the difference between a septic tank and a holding tank?",
+      },
+      {
+        type: "paragraph",
+        text: "A septic tank is a treatment system: it separates solids, allows bacterial decomposition, and releases partially treated effluent to a drain field. A holding tank (also called a cesspool tank or vault) does none of this — it simply stores all wastewater until it's pumped out. Holding tanks are used in locations where a drain field cannot be installed and must be pumped much more frequently — often monthly for full-time residences. They are significantly more expensive to operate long-term.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "new-system-installation",
+      "septic-pumping",
+      "septic-inspections",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
