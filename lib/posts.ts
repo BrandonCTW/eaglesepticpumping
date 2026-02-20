@@ -5448,8 +5448,273 @@ export const posts: BlogPost[] = [
       "septic-inspections",
     ],
   },
+  {
+    slug: "septic-tank-not-draining",
+    title: "Septic Tank Not Draining: Causes, What to Do & When to Call a Pro",
+    metaTitle: "Septic Tank Not Draining: Causes & What to Do | Eagle Septic",
+    metaDescription:
+      "Septic system not draining? Learn the 6 most common causes — full tank, drain field failure, clogged baffles, and more — plus what to do right now before calling a pro.",
+    publishedAt: "2026-02-20",
+    updatedAt: "2026-02-20",
+    category: "Troubleshooting",
+    readingTime: "9 min read",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Slow draining sink indicating a septic system problem",
+    },
+    excerpt:
+      "When your septic system stops draining, the cause could be as simple as a full tank or as serious as a failed drain field. Here's how to diagnose what's happening and what to do right now.",
+    sections: [
+      {
+        type: "paragraph",
+        text: "When drains in your home slow to a crawl — or stop entirely — and you're on a septic system, the instinct is to panic. The good news: not all septic drainage problems are catastrophic. The bad news: some are. Knowing which situation you're in determines whether you need a $350 pump-out or a $15,000 drain field replacement.",
+      },
+      {
+        type: "paragraph",
+        text: "This guide walks through the six most common reasons a septic tank stops draining, how to diagnose the problem without opening the tank yourself, what to do immediately, and when to call for professional service.",
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Sewage backup inside the house? Call now.",
+        text: "If toilets are backing up, sewage is coming up through floor drains, or you see raw sewage anywhere inside your home, stop all water use immediately and call for emergency septic service. Do not attempt to diagnose or fix it yourself. Raw sewage is a serious health hazard.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Step 1: Is the Problem Inside the House or Outside?",
+      },
+      {
+        type: "paragraph",
+        text: "Before guessing at causes, identify where the drainage failure is happening. This single distinction narrows the problem significantly.",
+      },
+      {
+        type: "list",
+        items: [
+          "One slow drain (e.g., just the kitchen sink) → likely a clogged household pipe, not a septic issue. Plunge it or use a drain snake before calling a septic company.",
+          "Multiple slow drains throughout the house → system-wide problem. The issue is in the septic system or the main sewer line leaving your house.",
+          "Gurgling toilets when you run the sink → pressure problem in the system, pointing toward the septic tank or the line to it.",
+          "Drains working fine inside but wet/soggy ground over the drain field → the drain field is saturated and cannot accept more liquid.",
+          "All drains completely backed up + sewage odor → the tank is likely full or there is a blockage between the house and the tank.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The 6 Most Common Causes of Septic Drainage Problems",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "1. Full or Overloaded Septic Tank",
+      },
+      {
+        type: "paragraph",
+        text: "This is the most common cause — and the most fixable. When a tank reaches capacity, there is no room for incoming water, so it backs up into the house. Signs include sluggish drains, gurgling pipes, and sewage odor. A pump-out resolves it within hours.",
+      },
+      {
+        type: "paragraph",
+        text: "A 1,000-gallon tank serving a family of four typically needs pumping every 3–4 years. If yours hasn't been pumped in that timeframe, assume fullness is the first suspect. Pumping costs $350–$500 for most Central Valley residential tanks.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "2. Clogged Inlet Baffle",
+      },
+      {
+        type: "paragraph",
+        text: "The inlet baffle is a plastic or concrete T-shaped fitting inside the tank where your household sewage pipe connects. Its job is to direct incoming flow downward so it doesn't disturb the settled sludge layer. If it breaks or gets clogged — often from wipes, rags, or excessive grease — wastewater can't enter the tank properly.",
+      },
+      {
+        type: "paragraph",
+        text: "A clogged inlet baffle feels exactly like a full tank from the inside: sluggish drains, gurgling, potential backup. A technician inspecting the tank will spot the blockage and clear or replace the baffle. This is typically a minor repair if caught early.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "3. Clogged or Failed Outlet Baffle",
+      },
+      {
+        type: "paragraph",
+        text: "The outlet baffle prevents solids from leaving the tank and entering the drain field. When it deteriorates (common in older concrete tanks) or becomes blocked with accumulated sludge, liquid can't exit the tank into the drain field — causing the tank to fill and back up into the house.",
+      },
+      {
+        type: "paragraph",
+        text: "Replacing a broken baffle or adding an effluent filter (which does the same job more reliably) costs $200–$500 and should be done immediately. Leaving it broken will eventually destroy the drain field as solids escape.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "4. Saturated or Failed Drain Field",
+      },
+      {
+        type: "paragraph",
+        text: "If your tank pumped out recently but drains are still slow, or if you see soggy ground or standing water over the drain field area, the drain field itself may be failing. The drain field is a network of perforated pipes buried in gravel trenches. Liquid from the tank flows through these pipes and slowly absorbs into the surrounding soil.",
+      },
+      {
+        type: "paragraph",
+        text: "Drain fields fail when: solids escape the tank and clog the pipes and soil, the soil becomes bio-mat-clogged from years of organic loading, or the field is waterlogged from heavy rain or a high water table. Temporary saturation from heavy rain often resolves in days. True drain field failure is a much more serious and expensive problem.",
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Saturated drain field vs. failed drain field",
+        text: "After a heavy rain or a period of excessive water use, drain fields can temporarily slow down. Give it 48–72 hours of minimal water use and dry weather. If drains recover, the field was temporarily overloaded. If the problem persists, call for an inspection — a failing drain field won't recover on its own.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "5. Blocked or Collapsed Pipe Between House and Tank",
+      },
+      {
+        type: "paragraph",
+        text: "The main sewer line running from your house to the septic tank can be blocked by tree roots, accumulated grease, or a physical collapse — especially in older homes with clay or cast-iron pipes. This type of blockage affects every drain in the house simultaneously and feels the same as a completely full tank.",
+      },
+      {
+        type: "paragraph",
+        text: "A camera inspection of the sewer line (typically $150–$300) can confirm whether the blockage is in the pipe or in the tank itself. This is an important first step before assuming the tank or drain field is the problem.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "6. Pump Failure (Pump-Assisted Systems)",
+      },
+      {
+        type: "paragraph",
+        text: "Many modern septic systems — including mound systems, pressure distribution systems, and aerobic treatment units (ATUs) — use an electric pump to move effluent from a pump chamber to the drain field. If that pump fails, effluent cannot leave the system and the pump chamber fills up, eventually backing into the main tank and then the house.",
+      },
+      {
+        type: "paragraph",
+        text: "Pump failures are common after power outages, pump age (most last 7–10 years), or float switch failures. If your system has a pump and the alarm is going off, a failed pump is likely. Pump replacement typically costs $700–$1,500 depending on the pump type and access.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What to Do Right Now",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Stop all non-essential water use. Every gallon you send into a system that can't drain makes the situation worse — and increases the risk of sewage backup inside the house.",
+          "Check for indoor backup symptoms. Are any toilets overflowing, or is sewage coming up through any floor drains or the lowest drains in your house? If yes, call for emergency service immediately.",
+          "Check outside for signs. Walk to your drain field area (usually a flat, mounded, or unusually green patch of lawn). Is the ground soggy or waterlogged? Do you see standing water or smell sewage outside? These are drain field symptoms.",
+          "Think about water use in the past 48 hours. Did you do 6 loads of laundry in one day? Have guests staying? Heavy water use can temporarily overload an otherwise healthy system — reduce use and monitor for 24 hours.",
+          "Think about when the tank was last pumped. If it's been more than 3–5 years, a full tank is the most likely cause. Schedule a pump-out.",
+          "Don't add septic additives or treatments. These don't unclog baffles, fix drain fields, or replace pumps. They won't help and some can harm the bacterial balance in your tank.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "When to Call for Emergency Service vs. Wait",
+      },
+      {
+        type: "paragraph",
+        text: "Not every drainage slowdown is an emergency. Here's how to triage:",
+      },
+      {
+        type: "list",
+        items: [
+          "Call for emergency service now: sewage backup inside the house, raw sewage visible on the ground surface, complete backup with no drains working, sewage odor inside the house",
+          "Schedule urgent service (within 24–48 hours): multiple slow drains, no backup yet but clearly degraded performance, alarm going off on a pump system",
+          "Monitor for 24–72 hours first: known recent heavy rain, recent heavy water use (guests, laundry marathon), single drain slow (may be a household pipe, not septic)",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "What a technician will check",
+        text: "A septic technician arriving at a 'not draining' call will typically: check tank levels and pump if full, inspect both inlet and outlet baffles, check the pump chamber and pump operation (if applicable), look for signs of drain field saturation, and may recommend a camera inspection of the sewer line. Most initial service calls take 1–2 hours.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Drain Field Failure: The Worst-Case Scenario",
+      },
+      {
+        type: "paragraph",
+        text: "If the tank is empty, baffles are intact, and the pump is working — but drains are still sluggish — the drain field is likely the problem. Drain field failure is the most expensive outcome in the septic world.",
+      },
+      {
+        type: "paragraph",
+        text: "In California's Central Valley, drain field repair or partial replacement runs $5,000–$15,000. Full drain field replacement (new trenches, new pipes, new gravel bed) typically costs $8,000–$20,000 depending on soil conditions, permits, and the amount of new field needed.",
+      },
+      {
+        type: "paragraph",
+        text: "However, not all drain field problems require full replacement. Options include: resting and rehabilitating the field (reducing water use for 3–6 months), hydro-jetting the distribution lines, adding a bio-mat treatment, or installing a supplemental field. A proper diagnosis by a licensed contractor is essential before committing to any solution.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to Prevent Future Drainage Problems",
+      },
+      {
+        type: "list",
+        items: [
+          "Pump on schedule — every 3–5 years for most households. This is the single most effective preventive action.",
+          "Never flush wipes, cotton products, paper towels, or hygiene items — these are the leading cause of baffle and pump clogs.",
+          "Spread laundry loads throughout the week — doing 5 loads in a day can hydraulically overload the drain field.",
+          "Don't pour grease down the drain — grease accumulates as a floating scum layer and can clog the outlet baffle.",
+          "Protect the drain field — keep vehicles and heavy equipment off it, don't plant trees near it, and don't direct roof runoff or French drains toward it.",
+          "Know where your tank and drain field are — have them mapped so you can identify problems early and give technicians accurate information.",
+          "Install an effluent filter if you don't have one — a $100–$200 addition that protects the drain field from solids.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Can a full septic tank fix itself?",
+      },
+      {
+        type: "paragraph",
+        text: "No. A septic tank does not drain itself or process solids away on its own. Once it reaches capacity, it will back up into the house or overflow into the drain field. The only fix is pumping by a licensed septic service company.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "How long does it take for drains to recover after pumping?",
+      },
+      {
+        type: "paragraph",
+        text: "If the tank was the only problem, drains typically return to normal within a few hours of pumping — often immediately. If the drain field was temporarily saturated, it may take 24–48 hours of reduced water use for drains to fully recover.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Will heavy rain cause my septic system to stop draining?",
+      },
+      {
+        type: "paragraph",
+        text: "Yes, temporarily. Heavy rain can saturate the soil around the drain field, preventing it from absorbing effluent. This can cause slow drains for 24–72 hours. Reduce water use during and after heavy rain events. If drains don't recover within a few days of dry weather, call for an inspection — rainwater intrusion into the tank itself (through cracked lids or inlet pipes) can also be a factor.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Is it safe to use the house while the septic isn't draining?",
+      },
+      {
+        type: "paragraph",
+        text: "Limit use to what's strictly necessary. Every gallon of water you add to a system that can't drain increases the pressure toward backup. Use the toilet only when necessary, take very short showers, and stop all laundry until the system is serviced. If sewage has already backed up inside the home, minimize exposure to affected areas — raw sewage carries serious pathogens.",
+      },
+      {
+        type: "paragraph",
+        text: "A septic system that isn't draining is always sending you a signal. Whether it's a simple pump-out or the beginning of a more serious problem, the right response is the same: reduce water use, stop adding non-essentials to the system, and get a professional out to diagnose it. The faster you act, the less likely a manageable problem becomes a catastrophic one.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "septic-tank-pumping",
+      "drain-field-repair",
+      "emergency-services",
+      "septic-inspections",
+    ],
+  },
 ];
-
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return posts.find((p) => p.slug === slug);
