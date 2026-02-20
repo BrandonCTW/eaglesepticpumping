@@ -52,3 +52,30 @@ Visual audit complete. Changes committed (`629828d`):
 
 All other pages audited (homepage, blog listing, blog category, pricing, about, FAQ, reviews, emergency, contact, service detail, service area city) and found to be in good shape from previous runs.
 [2026-02-20 11:46:06] Run #3 finished
+Visual audit complete. Here's what was done this run:
+
+**Changes committed (`629828d`):**
+
+- **Blog post breadcrumb** — Added a category level so the breadcrumb now reads `Home / Blog / [Category] / [Title]` instead of `Home / Blog / [Title]`. The category is a clickable link to the category archive, and the fix makes the rendered breadcrumb consistent with the 4-level JSON-LD `BreadcrumbList` schema that was already in place.
+
+- **Blog post hero padding** — Reduced bottom padding from `py-16/lg:py-24` to `pb-10/lg:pb-14`, trimming ~40–56px of dead space between the excerpt text and the cover image below it.
+
+- **Blog post cover image** — Reduced top padding from `pt-8` to `pt-4` for tighter visual flow into the article.
+
+**Pages audited and found clean:** homepage, blog listing, blog category pages, pricing, about, FAQ, reviews, emergency, contact, service detail, service area city pages. All prior fixes from runs 1–2 are intact.
+[2026-02-20 11:54:42] Run #3 finished
+[2026-02-20 11:54:47] Run #4 starting (model: sonnet)
+Visual audit complete. Changes committed:
+
+**Bug fix:**
+
+- **Service area city page title doubling** — `app/service-areas/[city]/page.tsx` was returning `title` (shorthand for `title: title`) instead of `title: { absolute: title }` in `generateMetadata`. The layout template then appended "| Eagle Septic Pumping" to a title string that already ended with "| Eagle Septic", producing "...| Eagle Septic | Eagle Septic Pumping". Fixed by changing to `title: { absolute: title }`.
+
+**Visual improvements:**
+
+- **Service detail page "Helpful Reading" cards** — `app/services/[slug]/page.tsx` "Helpful Reading" article cards were text-only (flat white cards with just category badge, title, excerpt). Added cover image thumbnails (`h-40` image with `object-cover` and hover zoom) to make them consistent with the blog listing card style. Added `import Image from "next/image"`.
+
+- **City page "Helpful Septic Resources" cards** — `app/service-areas/[city]/page.tsx` article cards in the "Helpful Septic Resources" section also lacked images. Added cover image thumbnails (`h-36` image, optimized for the 4-column grid at lg breakpoint). Added `import Image from "next/image"`.
+
+**Pages audited and found clean:** real-estate-inspections, services listing, about, reviews, service detail (septic-tank-pumping). All prior fixes from runs 1–3 are intact.
+[2026-02-20 19:55:00] Run #4 finished

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { serviceAreas, getServiceArea, PHONE, PHONE_HREF } from "@/lib/serviceAreas";
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `Septic Pumping & Service in ${area.city}, ${area.stateAbbr} | Eagle Septic`;
   const description = `Licensed septic tank pumping, cleaning, inspection, and emergency service in ${area.city}, ${area.county} County. Eagle Septic Pumping — upfront pricing, same-day availability.`;
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: { canonical: `https://eaglesepticpumping.com/service-areas/${area.slug}` },
     openGraph: { title, description, type: "website" },
@@ -341,17 +342,28 @@ export default async function CityPage({ params }: Props) {
                   <Link
                     key={post.slug}
                     href={`/blog/${post.slug}`}
-                    className="group flex flex-col rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:border-brand-300 hover:shadow-md"
+                    className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all hover:border-brand-300 hover:shadow-md"
                   >
-                    <span className="mb-3 inline-block rounded-full bg-brand-50 px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-brand-700">
-                      {post.category}
-                    </span>
-                    <h3 className="mb-2 flex-1 text-sm font-semibold text-gray-900 group-hover:text-brand-700 leading-snug">
-                      {post.title}
-                    </h3>
-                    <span className="mt-auto text-xs font-medium text-brand-700 group-hover:underline">
-                      Read article →
-                    </span>
+                    <div className="relative h-36 w-full flex-shrink-0 overflow-hidden">
+                      <Image
+                        src={post.coverImage.src}
+                        alt={post.coverImage.alt}
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      />
+                    </div>
+                    <div className="flex flex-1 flex-col p-5">
+                      <span className="mb-2 inline-block rounded-full bg-brand-50 px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-brand-700">
+                        {post.category}
+                      </span>
+                      <h3 className="mb-2 flex-1 text-sm font-semibold text-gray-900 group-hover:text-brand-700 leading-snug">
+                        {post.title}
+                      </h3>
+                      <span className="mt-auto text-xs font-medium text-brand-700 group-hover:underline">
+                        Read article →
+                      </span>
+                    </div>
                   </Link>
                 ))}
               </div>

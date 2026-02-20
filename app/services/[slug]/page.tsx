@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import {
@@ -339,20 +340,31 @@ export default async function ServicePage({ params }: Props) {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="group flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-brand-300 hover:shadow-md"
+                  className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all hover:border-brand-300 hover:shadow-md"
                 >
-                  <span className="mb-3 inline-block rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700">
-                    {post.category}
-                  </span>
-                  <h3 className="mb-2 flex-1 text-base font-semibold text-gray-900 group-hover:text-brand-700 leading-snug">
-                    {post.title}
-                  </h3>
-                  <p className="mb-4 text-sm text-gray-500 line-clamp-2">
-                    {post.excerpt}
-                  </p>
-                  <span className="text-sm font-medium text-brand-700 group-hover:underline">
-                    Read article →
-                  </span>
+                  <div className="relative h-40 w-full flex-shrink-0 overflow-hidden">
+                    <Image
+                      src={post.coverImage.src}
+                      alt={post.coverImage.alt}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                  </div>
+                  <div className="flex flex-1 flex-col p-6">
+                    <span className="mb-3 inline-block rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700">
+                      {post.category}
+                    </span>
+                    <h3 className="mb-2 flex-1 text-base font-semibold text-gray-900 group-hover:text-brand-700 leading-snug">
+                      {post.title}
+                    </h3>
+                    <p className="mb-4 text-sm text-gray-500 line-clamp-2">
+                      {post.excerpt}
+                    </p>
+                    <span className="text-sm font-medium text-brand-700 group-hover:underline">
+                      Read article →
+                    </span>
+                  </div>
                 </Link>
               ))}
             </div>
