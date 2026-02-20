@@ -38,6 +38,8 @@ const categoryDescriptions: Record<string, string> = {
     "California and county-level septic regulations that affect your system — what's required and what to expect.",
   Commercial:
     "Septic solutions for restaurants, offices, and commercial properties. Industrial-scale pumping and compliance guidance.",
+  Education:
+    "Foundational guides to understanding how septic systems work — how they're built, what can go wrong, and what every homeowner should know.",
 };
 
 const categoryColors: Record<string, { badge: string; heading: string }> = {
@@ -52,6 +54,7 @@ const categoryColors: Record<string, { badge: string; heading: string }> = {
   "Hiring Guide": { badge: "bg-teal-100 text-teal-800", heading: "text-teal-700" },
   Regulations: { badge: "bg-orange-100 text-orange-800", heading: "text-orange-700" },
   Commercial: { badge: "bg-indigo-100 text-indigo-800", heading: "text-indigo-700" },
+  Education: { badge: "bg-cyan-100 text-cyan-800", heading: "text-cyan-700" },
 };
 
 export async function generateStaticParams() {

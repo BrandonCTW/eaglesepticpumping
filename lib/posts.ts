@@ -23,7 +23,7 @@ export const posts: BlogPost[] = [
   {
     slug: "how-often-pump-septic-tank",
     title: "How Often Should You Pump Your Septic Tank?",
-    metaTitle: "How Often Should You Pump Your Septic Tank? | Eagle Septic",
+    metaTitle: "How Often Should You Pump Your Septic Tank? | Eagle Septic Pumping",
     metaDescription:
       "Most households need septic tank pumping every 3–5 years, but the right frequency depends on tank size and household size. Learn the exact schedule for your home.",
     publishedAt: "2025-11-01",
@@ -199,7 +199,7 @@ export const posts: BlogPost[] = [
   {
     slug: "warning-signs-septic-system-failing",
     title: "7 Warning Signs Your Septic System Needs Immediate Attention",
-    metaTitle: "7 Warning Signs Your Septic System Is Failing | Eagle Septic",
+    metaTitle: "7 Warning Signs Your Septic System Is Failing | Eagle Septic Pumping",
     metaDescription:
       "Slow drains, sewage odors, and wet spots over your drain field are serious warning signs. Learn the 7 symptoms of septic failure and what to do before it becomes an emergency.",
     publishedAt: "2025-11-15",
@@ -349,7 +349,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-system-maintenance-guide",
     title: "Septic System Maintenance: A Complete Guide for Homeowners",
-    metaTitle: "Septic System Maintenance Guide for Homeowners | Eagle Septic",
+    metaTitle: "Septic System Maintenance Guide for Homeowners | Eagle Septic Pumping",
     metaDescription:
       "Everything homeowners need to know about septic system maintenance: pumping schedules, what not to flush, water conservation, inspection checklists, and how to protect your drain field.",
     publishedAt: "2025-12-01",
@@ -587,7 +587,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-tank-pumping-cost-central-valley",
     title: "Septic Tank Pumping Cost in Modesto & the Central Valley",
-    metaTitle: "Septic Tank Pumping Cost in Modesto & Central Valley | Eagle Septic",
+    metaTitle: "Septic Tank Pumping Cost in Modesto & Central Valley | Eagle Septic Pumping",
     metaDescription:
       "How much does septic tank pumping cost in Modesto, Turlock, and the Central Valley? Current 2025 price ranges, what drives costs up or down, and how to get a fair quote.",
     publishedAt: "2026-01-10",
@@ -755,7 +755,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-inspection-home-sale-guide",
     title: "Buying or Selling a Home with a Septic System: The Complete Inspection Guide",
-    metaTitle: "Septic Inspection for Home Sale or Purchase | Eagle Septic",
+    metaTitle: "Septic Inspection for Home Sale or Purchase | Eagle Septic Pumping",
     metaDescription:
       "Everything buyers and sellers need to know about septic inspections during a real estate transaction. What's inspected, how long it takes, what failures mean, and who pays.",
     publishedAt: "2026-01-24",
@@ -934,7 +934,7 @@ export const posts: BlogPost[] = [
   {
     slug: "new-homeowner-septic-system-guide",
     title: "New Homeowner's Guide to Your Septic System",
-    metaTitle: "New Homeowner's Guide to Septic Systems | Eagle Septic",
+    metaTitle: "New Homeowner's Guide to Septic Systems | Eagle Septic Pumping",
     metaDescription:
       "Just bought a home with a septic system? This guide covers everything you need to know in year one: how the system works, what not to flush, when to pump, and warning signs to watch for.",
     publishedAt: "2026-02-07",
@@ -1288,7 +1288,7 @@ export const posts: BlogPost[] = [
   {
     slug: "how-long-does-septic-system-last",
     title: "How Long Does a Septic System Last? (And Signs It's Time for Replacement)",
-    metaTitle: "How Long Does a Septic System Last? Lifespan Guide | Eagle Septic",
+    metaTitle: "How Long Does a Septic System Last? Lifespan Guide | Eagle Septic Pumping",
     metaDescription:
       "A well-maintained septic system can last 25–40+ years. Learn what determines lifespan, warning signs of end-of-life failure, and when repair vs. full replacement makes sense.",
     publishedAt: "2026-01-22",
@@ -1711,7 +1711,7 @@ export const posts: BlogPost[] = [
   {
     slug: "what-happens-if-you-never-pump-septic-tank",
     title: "What Happens If You Never Pump Your Septic Tank?",
-    metaTitle: "What Happens If You Never Pump Your Septic Tank? | Eagle Septic",
+    metaTitle: "What Happens If You Never Pump Your Septic Tank? | Eagle Septic Pumping",
     metaDescription:
       "Skipping septic tank pumping doesn't just cause odors — it leads to sewage backups, drain field failure, and $15,000+ in repairs. Here's the timeline of what goes wrong.",
     publishedAt: "2025-12-15",
@@ -1814,7 +1814,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-inspection-home-buyers-guide",
     title: "Septic Inspection for Home Buyers: What to Expect and Ask",
-    metaTitle: "Septic Inspection for Home Buyers: What to Expect | Eagle Septic",
+    metaTitle: "Septic Inspection for Home Buyers: What to Expect | Eagle Septic Pumping",
     metaDescription:
       "Buying a home with a septic system? Learn what a septic inspection covers, what red flags to look for, and what questions to ask before closing — from Central Valley septic experts.",
     publishedAt: "2026-01-05",
@@ -2143,7 +2143,7 @@ export const posts: BlogPost[] = [
   {
     slug: "how-to-find-your-septic-tank",
     title: "How to Find Your Septic Tank: 6 Reliable Methods",
-    metaTitle: "How to Find Your Septic Tank: 6 Reliable Methods | Eagle Septic",
+    metaTitle: "How to Find Your Septic Tank: 6 Reliable Methods | Eagle Septic Pumping",
     metaDescription:
       "Not sure where your septic tank is buried? Use these 6 proven methods to locate it — from checking permit records to following the drain line — before your next service.",
     publishedAt: "2026-02-15",
@@ -2331,7 +2331,7 @@ export const posts: BlogPost[] = [
   {
     slug: "do-septic-tank-additives-work",
     title: "Do Septic Tank Additives Work? What Licensed Techs Actually See",
-    metaTitle: "Do Septic Tank Additives Work? The Honest Truth | Eagle Septic",
+    metaTitle: "Do Septic Tank Additives Work? The Honest Truth | Eagle Septic Pumping",
     metaDescription:
       "Millions of homeowners buy septic tank additives every year. But do products like RidX actually help — or are they a waste of money? Licensed septic technicians weigh in with what they see in real tanks.",
     publishedAt: "2026-02-19",
@@ -2509,7 +2509,7 @@ export const posts: BlogPost[] = [
   {
     slug: "sewage-smell-septic-system",
     title: "Sewage Smell in Your House? Here's What Your Septic System Is Telling You",
-    metaTitle: "Sewage Smell in House From Septic: Causes & What To Do | Eagle Septic",
+    metaTitle: "Sewage Smell in House From Septic: Causes & What To Do | Eagle Septic Pumping",
     metaDescription:
       "Sewage odors inside or outside your home are a warning sign your septic system needs attention. Learn the 7 causes, how to diagnose them, and when to call for help.",
     publishedAt: "2026-02-19",
@@ -3360,7 +3360,7 @@ export const posts: BlogPost[] = [
   {
     slug: "commercial-septic-service-central-valley",
     title: "Commercial Septic Service in the Central Valley: A Guide for Business Owners",
-    metaTitle: "Commercial Septic Service Central Valley CA | Eagle Septic",
+    metaTitle: "Commercial Septic Service Central Valley CA | Eagle Septic Pumping",
     metaDescription:
       "Septic service for restaurants, farms, apartment complexes, and businesses in Modesto, Turlock, Fresno, and the Central Valley. Pumping frequency, compliance, and cost guide.",
     publishedAt: "2026-02-10",
@@ -3689,7 +3689,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-service-stockton-ca",
     title: "Septic Service in Stockton, CA: What Property Owners Need to Know",
-    metaTitle: "Septic Service Stockton CA | Pumping, Inspection & Repair | Eagle Septic",
+    metaTitle: "Septic Service Stockton CA | Pumping, Inspection & Repair | Eagle Septic Pumping",
     metaDescription:
       "Eagle Septic provides septic pumping, inspection, and emergency service throughout Stockton and San Joaquin County. Licensed, insured, upfront pricing. Call for same-day service.",
     publishedAt: "2026-01-22",
@@ -3793,7 +3793,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-service-tracy-ca",
     title: "Septic Service in Tracy, CA: Pumping, Inspection & Repair",
-    metaTitle: "Septic Service Tracy CA | Pumping & Inspection | Eagle Septic",
+    metaTitle: "Septic Service Tracy CA | Pumping & Inspection | Eagle Septic Pumping",
     metaDescription:
       "Licensed septic pumping, inspection, and repair in Tracy, CA and San Joaquin County. Eagle Septic — upfront pricing, same-day availability, 24/7 emergency service.",
     publishedAt: "2026-01-25",
@@ -3878,7 +3878,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-service-manteca-ca",
     title: "Septic Service in Manteca, CA: Local Pumping & Inspection Guide",
-    metaTitle: "Septic Service Manteca CA | Pumping, Repair & Inspection | Eagle Septic",
+    metaTitle: "Septic Service Manteca CA | Pumping, Repair & Inspection | Eagle Septic Pumping",
     metaDescription:
       "Eagle Septic provides septic pumping, inspection, and emergency service in Manteca and San Joaquin County. Licensed technicians, upfront pricing, same-day availability.",
     publishedAt: "2026-01-28",
@@ -3969,7 +3969,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-service-merced-ca",
     title: "Septic Service in Merced, CA: Pumping, Inspection & Local Regulations",
-    metaTitle: "Septic Service Merced CA | Pumping & Inspection | Eagle Septic",
+    metaTitle: "Septic Service Merced CA | Pumping & Inspection | Eagle Septic Pumping",
     metaDescription:
       "Eagle Septic provides licensed septic pumping, inspection, and repair in Merced and Merced County. Same-day service, 24/7 emergency response, upfront pricing.",
     publishedAt: "2026-02-01",
@@ -4337,7 +4337,7 @@ export const posts: BlogPost[] = [
   {
     slug: "how-does-a-septic-system-work",
     title: "How Does a Septic System Work? A Complete Homeowner's Guide",
-    metaTitle: "How Does a Septic System Work? Complete Guide | Eagle Septic",
+    metaTitle: "How Does a Septic System Work? Complete Guide | Eagle Septic Pumping",
     metaDescription:
       "Learn exactly how a septic system works — from the tank to the drain field. Covers all components, system types, and why maintenance matters. Simple, clear explanations.",
     publishedAt: "2026-02-20",
@@ -4956,7 +4956,7 @@ export const posts: BlogPost[] = [
   {
     slug: "signs-septic-tank-is-full",
     title: "Signs Your Septic Tank Is Full: 8 Symptoms to Watch For",
-    metaTitle: "Signs Your Septic Tank Is Full: 8 Symptoms to Watch For | Eagle Septic",
+    metaTitle: "Signs Your Septic Tank Is Full: 8 Symptoms to Watch For | Eagle Septic Pumping",
     metaDescription:
       "Slow drains, gurgling pipes, sewage odors, and soggy yard patches are classic signs a septic tank is full. Learn all 8 warning signs and what to do next.",
     publishedAt: "2026-02-20",
@@ -5192,7 +5192,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-tank-alarm-going-off",
     title: "Septic Tank Alarm Going Off: What It Means and What to Do",
-    metaTitle: "Septic Tank Alarm Going Off: Causes & What to Do | Eagle Septic",
+    metaTitle: "Septic Tank Alarm Going Off: Causes & What to Do | Eagle Septic Pumping",
     metaDescription:
       "Septic alarm sounding? Learn what triggered it, whether it's an emergency, and the exact steps to take right now — before calling a technician.",
     publishedAt: "2026-02-20",
@@ -5451,7 +5451,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-tank-not-draining",
     title: "Septic Tank Not Draining: Causes, What to Do & When to Call a Pro",
-    metaTitle: "Septic Tank Not Draining: Causes & What to Do | Eagle Septic",
+    metaTitle: "Septic Tank Not Draining: Causes & What to Do | Eagle Septic Pumping",
     metaDescription:
       "Septic system not draining? Learn the 6 most common causes — full tank, drain field failure, clogged baffles, and more — plus what to do right now before calling a pro.",
     publishedAt: "2026-02-20",
@@ -5717,7 +5717,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-safe-cleaning-products",
     title: "Septic Safe Cleaning Products: What's Actually OK (and What Destroys Your System)",
-    metaTitle: "Septic Safe Cleaning Products: The Complete Guide | Eagle Septic",
+    metaTitle: "Septic Safe Cleaning Products: The Complete Guide | Eagle Septic Pumping",
     metaDescription:
       "Not sure which cleaning products are safe for your septic system? Learn which dish soaps, laundry detergents, toilet cleaners, and disinfectants protect your system — and which ones kill the bacteria keeping it alive.",
     publishedAt: "2026-02-20",
@@ -6057,7 +6057,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-safe-toilet-paper",
     title: "Septic Safe Toilet Paper: Best Brands and What to Avoid",
-    metaTitle: "Septic Safe Toilet Paper: Best Brands & What to Avoid | Eagle Septic",
+    metaTitle: "Septic Safe Toilet Paper: Best Brands & What to Avoid | Eagle Septic Pumping",
     metaDescription:
       "Not all toilet paper is safe for septic systems. Learn which brands (Charmin, Scott, Angel Soft, Cottonelle) are actually septic safe, what to look for on labels, and why some popular TP can clog your drain field.",
     publishedAt: "2026-02-20",
@@ -6688,7 +6688,7 @@ export const posts: BlogPost[] = [
   {
     slug: "aerobic-septic-system",
     title: "Aerobic Septic System: How It Works, What It Costs, and How to Maintain It",
-    metaTitle: "Aerobic Septic System: Cost, Maintenance & How It Works | Eagle Septic",
+    metaTitle: "Aerobic Septic System: Cost, Maintenance & How It Works | Eagle Septic Pumping",
     metaDescription:
       "Aerobic septic systems treat wastewater more thoroughly than conventional systems — but they cost more to install and require quarterly maintenance. Learn how aerobic systems work, what they cost, and how to keep yours running.",
     publishedAt: "2026-02-20",
@@ -7058,7 +7058,7 @@ export const posts: BlogPost[] = [
   {
     slug: "septic-tank-size-guide",
     title: "Septic Tank Size Guide: What Size Do You Need for Your Home?",
-    metaTitle: "Septic Tank Size Guide: What Size Do You Need? | Eagle Septic",
+    metaTitle: "Septic Tank Size Guide: What Size Do You Need? | Eagle Septic Pumping",
     metaDescription:
       "Most 3-bedroom homes need a 1,000-gallon septic tank. Learn how tank size is calculated by bedrooms, occupants, and water usage — plus California minimum requirements.",
     publishedAt: "2026-02-20",

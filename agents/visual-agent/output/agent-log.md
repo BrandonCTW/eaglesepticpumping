@@ -79,3 +79,27 @@ Visual audit complete. Changes committed:
 
 **Pages audited and found clean:** real-estate-inspections, services listing, about, reviews, service detail (septic-tank-pumping). All prior fixes from runs 1–3 are intact.
 [2026-02-20 19:55:00] Run #4 finished
+Run #4 complete. Committed `a146d6c` with:
+
+**Bug fix:**
+- `app/service-areas/[city]/page.tsx` — `generateMetadata` was returning `title` (shorthand) instead of `title: { absolute: title }`, causing the layout template to double the brand name
+
+**Visual improvements:**
+- `app/services/[slug]/page.tsx` — "Helpful Reading" article cards now have cover image thumbnails (h-40, hover zoom), matching the blog listing card style
+- `app/service-areas/[city]/page.tsx` — "Helpful Septic Resources" article cards now have cover image thumbnails (h-36, sized for 4-column grid)
+
+**Pages audited and clear:** services listing, about, reviews, real-estate-inspections, service detail pages — all in good shape from prior runs.
+[2026-02-20 12:08:10] Run #4 finished
+[2026-02-20 12:08:15] Run #5 starting (model: sonnet)
+Visual audit complete. Changes committed:
+
+**Fixes:**
+
+- **25 blog post metaTitles truncated brand name** — `lib/posts.ts` had 25 blog posts with `metaTitle` values ending in `| Eagle Septic",` (missing "Pumping"). These would produce incorrect titles whether the layout template applied or not. Batch-replaced all 25 to `| Eagle Septic Pumping",` for consistent branding.
+
+- **"Education" category missing from blog category page mappings** — `app/blog/category/[category]/page.tsx` had no entry for "Education" in `categoryDescriptions` or `categoryColors`. The 2 Education posts would fall back to a plain gray badge and a generic description. Added cyan color scheme and a proper description.
+
+**Pages audited and found clean:** homepage, blog listing, blog post (multiple), services listing, service detail, service areas listing, Modesto city page, about, maintenance-plan, reviews, FAQ, pricing, real-estate-inspections, commercial, emergency. All prior fixes from runs 1–4 intact in source code (live site is on an older deployment).
+
+**Note:** The live site is running pre-Run 2 code — title doubling, missing breadcrumb category, and missing article card images are deployment lag, not code issues. All source code is correct.
+[2026-02-20 20:30:00] Run #5 finished
