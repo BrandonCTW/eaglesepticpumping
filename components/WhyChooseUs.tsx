@@ -66,22 +66,18 @@ export default function WhyChooseUs() {
           </p>
         </div>
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {reasons.map((reason, i) => (
-            <div key={reason.title} className="flex gap-4">
-              <div className="flex-shrink-0">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-100 text-brand-700 font-bold text-sm">
-                  {i + 1}
-                </div>
+            <div key={reason.title} className="rounded-xl border border-gray-100 bg-gray-50 p-6">
+              <div className="mb-4 flex h-9 w-9 items-center justify-center rounded-lg bg-brand-700 text-white font-bold text-sm">
+                {i + 1}
               </div>
-              <div>
-                <h3 className="mb-2 font-semibold text-gray-900">
-                  {reason.title}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {reason.description}
-                </p>
-              </div>
+              <h3 className="mb-2 font-semibold text-gray-900">
+                {reason.title}
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                {reason.description}
+              </p>
             </div>
           ))}
         </div>

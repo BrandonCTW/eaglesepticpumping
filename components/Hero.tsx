@@ -6,20 +6,20 @@ const HERO_IMAGE =
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-brand-900">
+    <section className="relative flex min-h-[520px] items-center overflow-hidden bg-brand-900">
       {/* Background photo */}
       <Image
         src={HERO_IMAGE}
         alt="Residential home with green lawn served by Eagle Septic Pumping"
         fill
         priority
-        className="object-cover object-center opacity-20"
+        className="object-cover object-center opacity-30"
         sizes="100vw"
       />
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-brand-900/90 via-brand-800/80 to-brand-700/70" />
+      <div className="absolute inset-0 bg-gradient-to-br from-brand-900/85 via-brand-800/75 to-brand-700/65" />
 
-      <div className="container-max section-padding relative">
+      <div className="container-max section-padding relative w-full">
         <div className="mx-auto max-w-3xl text-center">
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-accent-500/20 px-4 py-2 text-sm font-semibold text-accent-400 ring-1 ring-accent-500/30">

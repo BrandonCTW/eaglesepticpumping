@@ -59,7 +59,7 @@ export default function ServiceArea() {
             >
               View all service locations →
             </a>
-            <p className="text-sm text-gray-500">
+            <p className="mt-3 text-sm text-gray-500">
               Don&apos;t see your city? We often service nearby areas — call to
               confirm coverage.
             </p>

@@ -46,7 +46,7 @@ function slugify(text: string): string {
 
 function buildToc(sections: BlogSection[]): TocEntry[] {
   return sections
-    .filter((s): s is Extract<BlogSection, { type: "heading" }> => s.type === "heading")
+    .filter((s): s is Extract<BlogSection, { type: "heading" }> => s.type === "heading" && s.level === 2)
     .map((s) => ({ id: slugify(s.text), text: s.text, level: s.level }));
 }
 
@@ -368,20 +368,31 @@ export default async function BlogPostPage({ params }: Props) {
                   <Link
                     key={rel.slug}
                     href={`/blog/${rel.slug}`}
-                    className="group block rounded-xl border border-gray-200 bg-white p-5 transition-colors hover:border-brand-300 hover:bg-brand-50"
+                    className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition-colors hover:border-brand-300"
                   >
-                    <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
-                      {rel.category}
-                    </span>
-                    <h3 className="mt-2 font-bold text-gray-900 leading-snug group-hover:text-brand-700">
-                      {rel.title}
-                    </h3>
-                    <p className="mt-2 text-sm text-gray-500 line-clamp-2 leading-relaxed">
-                      {rel.excerpt}
-                    </p>
-                    <span className="mt-3 inline-block text-sm font-medium text-brand-700 group-hover:underline">
-                      Read →
-                    </span>
+                    <div className="relative h-40 w-full flex-shrink-0 overflow-hidden">
+                      <Image
+                        src={rel.coverImage.src}
+                        alt={rel.coverImage.alt}
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                    </div>
+                    <div className="flex flex-1 flex-col p-5">
+                      <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
+                        {rel.category}
+                      </span>
+                      <h3 className="mt-2 font-bold text-gray-900 leading-snug group-hover:text-brand-700">
+                        {rel.title}
+                      </h3>
+                      <p className="mt-2 flex-1 text-sm text-gray-500 line-clamp-2 leading-relaxed">
+                        {rel.excerpt}
+                      </p>
+                      <span className="mt-3 inline-block text-sm font-medium text-brand-700 group-hover:underline">
+                        Read →
+                      </span>
+                    </div>
                   </Link>
                 ))}
               </div>

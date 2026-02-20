@@ -148,7 +148,7 @@ export default function FAQ() {
                 </svg>
                 Call Us Now
               </a>
-              <a href="#contact" className="btn-secondary inline-flex items-center justify-center gap-2">
+              <a href="#contact" className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-brand-700 px-6 py-3 font-semibold text-brand-700 transition-all hover:bg-brand-700 hover:text-white active:scale-95">
                 Send a Message
               </a>
             </div>
