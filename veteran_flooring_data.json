@@ -1,0 +1,64 @@
+{
+  "url": "https://www.veteranflooringstl.com/",
+  "title": "Flooring Sales & Installation | Veteran Flooring | Maryland Heights",
+  "meta_description": "Veteran-owned Flooring Services. Maryland Heights, MO. hardwood, laminate, vinyl, carpet flooring sales & installation. free estimates and special discounts.",
+  "h1_tags": [
+    "Veteran Flooring"
+  ],
+  "h2_tags": [
+    "Proudly Serving Maryland Heights, MO and Surrounding Areas Since 2015",
+    "What Sets Us Apart:"
+  ],
+  "phone": "(314) 755-8816",
+  "email": "info@veteranflooringstl.com",
+  "address": null,
+  "existing_schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Veteran Flooring",
+      "url": "https://www.veteranflooringstl.com/"
+    },
+    {
+      "@context": {
+        "@vocab": "http://schema.org/"
+      },
+      "@type": "ProfessionalService",
+      "name": "Veteran Flooring",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "149 Weldon Parkway",
+        "addressLocality": "Maryland Heights",
+        "addressRegion": "Missouri",
+        "postalCode": "63043",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "38.711683",
+        "longitude": "-90.44236"
+      },
+      "url": "https://www.veteranflooringstl.com",
+      "telephone": "(314) 755-8816",
+      "email": "info@veteranflooringstl.com",
+      "logo": "https://irp.cdn-website.com/8eb7fee6/dms3rep/multi/veteran-flooring-logo-1920w.webp",
+      "@id": "https://www.veteranflooringstl.com"
+    }
+  ],
+  "services": [
+    "hardwood",
+    "vinyl",
+    "laminate",
+    "carpet",
+    "flooring",
+    "installation",
+    "repair",
+    "restoration"
+  ],
+  "images": [
+    {
+      "src": "https://lirp.cdn-website.com/8eb7fee6/dms3rep/multi/opt/veteran-flooring-logo-1920w-300w.webp",
+      "alt": "The logo for veteran flooring has a star on it."
+    }
+  ]
+}
