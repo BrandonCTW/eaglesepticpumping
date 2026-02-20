@@ -25,3 +25,30 @@ All done. Here's a summary of what was audited and improved:
 - **ServiceArea**: Added `mt-3` spacing between "View all service locations →" and the note below it.
 [2026-02-20 11:34:54] Run #1 finished
 [2026-02-20 11:34:59] Run #2 starting (model: sonnet)
+All changes committed. Here's a summary of what was audited and fixed:
+
+## Visual Audit Complete
+
+**Critical fixes applied:**
+
+- **Duplicate page title tags** — 14 pages had "Eagle Septic Pumping" in their title string, which when passed through the layout template (`%s | Eagle Septic Pumping`) produced doubled brand names like "Septic Services | Eagle Septic Pumping | Eagle Septic Pumping". Fixed by using `{ absolute: title }` to bypass the template on all affected pages:
+  - `app/page.tsx`, `app/services/page.tsx`, `app/services/[slug]/page.tsx`, `app/blog/[slug]/page.tsx`, `app/blog/category/[category]/page.tsx`, `app/book/page.tsx`, `app/reviews/page.tsx`, `app/commercial/page.tsx`, `app/emergency/page.tsx`, `app/about/page.tsx`, `app/contact/page.tsx`, `app/maintenance-plan/page.tsx`, `app/real-estate-inspections/page.tsx`, `app/service-areas/page.tsx`
+  - Contact page title also had the placeholder phone number removed from it
+
+**UX improvements:**
+
+- **Blog TOC hierarchy** — `buildToc()` now extracts both H2 and H3 headings. The `TableOfContents` component already rendered H3 entries with `pl-4` indentation, so adding H3 support completes the intended hierarchy display
+
+- **WhyChooseUs number badges** — Increased from `h-9 w-9` to `h-10 w-10` and changed color from `bg-brand-700` (dark blue, low contrast) to `bg-accent-500` (bright green), making the numbers significantly easier to read against the gray card backgrounds
+[2026-02-20 11:46:01] Run #2 finished
+[2026-02-20 11:46:06] Run #3 starting (model: sonnet)
+Visual audit complete. Changes committed (`629828d`):
+
+- **Blog post breadcrumb**: Added category level — now shows `Home / Blog / [Category] / [Title]` instead of `Home / Blog / [Title]`. The category is a clickable link to the category archive page, consistent with the JSON-LD BreadcrumbList schema that already had 4 levels.
+
+- **Blog post hero padding**: Reduced bottom padding from `py-16/lg:py-24` to `pb-10/lg:pb-14`, cutting the dead space between the excerpt and the cover image from ~128px to ~88px on desktop.
+
+- **Blog post cover image**: Reduced top padding from `pt-8` to `pt-4` for tighter visual flow into the article body.
+
+All other pages audited (homepage, blog listing, blog category, pricing, about, FAQ, reviews, emergency, contact, service detail, service area city) and found to be in good shape from previous runs.
+[2026-02-20 11:46:06] Run #3 finished
