@@ -181,7 +181,7 @@ export default async function CityPage({ params }: Props) {
               {/* Stats */}
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { value: "20+", label: "Years in the Central Valley" },
+                  { value: "18+", label: "Years in the Central Valley" },
                   { value: "4,200+", label: "Tanks Pumped" },
                   { value: "24/7", label: "Emergency Response" },
                   { value: "Licensed", label: "& Fully Insured" },

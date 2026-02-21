@@ -1,5 +1,5 @@
 const stats = [
-  { value: "20+", label: "Years Experience" },
+  { value: "18+", label: "Years Experience" },
   { value: "4,200+", label: "Tanks Serviced" },
   { value: "24/7", label: "Emergency Service" },
   { value: "100%", label: "Licensed & Insured" },
@@ -9,7 +9,7 @@ const reasons = [
   {
     title: "Experienced & Certified",
     description:
-      "Our team has over 20 years of hands-on experience with residential and commercial septic systems. Every technician is state-certified and background-checked.",
+      "Our team has over 18 years of hands-on experience with residential and commercial septic systems. Every technician is state-certified and background-checked.",
   },
   {
     title: "Transparent Pricing",

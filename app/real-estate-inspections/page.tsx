@@ -249,7 +249,7 @@ export default function RealEstateInspectionsPage() {
                   "Reports within 24 hours",
                   "FHA & USDA compliant",
                   "Licensed & insured",
-                  "20+ years experience",
+                  "18+ years experience",
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-accent-400">

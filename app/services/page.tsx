@@ -87,7 +87,7 @@ export default function ServicesPage() {
           <p className="max-w-2xl text-lg text-brand-100 leading-relaxed">
             From routine pumping to 24/7 emergency response, we handle every
             aspect of your septic system. Licensed, insured, and family-owned
-            with 20+ years of experience.
+            with 18+ years of experience.
           </p>
         </div>
       </section>
@@ -137,7 +137,7 @@ export default function ServicesPage() {
         <div className="container-max py-10">
           <div className="grid grid-cols-2 gap-6 text-center sm:grid-cols-4">
             {[
-              { stat: "20+", label: "Years Experience" },
+              { stat: "18+", label: "Years Experience" },
               { stat: "4,200+", label: "Tanks Serviced" },
               { stat: "24/7", label: "Emergency Response" },
               { stat: "100%", label: "Licensed & Insured" },
