@@ -95,11 +95,17 @@ export default function ServiceAreasPage() {
                       {group.county}
                     </h3>
                     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                      {areas.map((area) => (
+                      {areas.map((area, i) => {
+                        const smRemainder = areas.length % 2;
+                        const lgRemainder = areas.length % 3;
+                        const isLast = i === areas.length - 1;
+                        const smCenter = smRemainder === 1 && isLast ? "sm:col-start-2" : "";
+                        const lgCenter = lgRemainder === 1 && isLast ? "lg:col-start-2" : "";
+                        return (
                         <a
                           key={area.slug}
                           href={`/service-areas/${area.slug}`}
-                          className="group flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-5 transition hover:border-brand-400 hover:bg-brand-50 hover:shadow-md"
+                          className={`group flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-5 transition hover:border-brand-400 hover:bg-brand-50 hover:shadow-md${smCenter ? ` ${smCenter}` : ""}${lgCenter ? ` ${lgCenter}` : ""}`}
                         >
                           <div className="flex items-start gap-3">
                             <div className="mt-0.5 flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 group-hover:bg-brand-600 group-hover:text-white">
@@ -119,7 +125,8 @@ export default function ServiceAreasPage() {
                             View service details →
                           </span>
                         </a>
-                      ))}
+                        );
+                      })}
                     </div>
                   </div>
                 );
