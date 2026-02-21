@@ -138,7 +138,7 @@ export default function ServicesPage() {
           <div className="grid grid-cols-2 gap-6 text-center sm:grid-cols-4">
             {[
               { stat: "20+", label: "Years Experience" },
-              { stat: "5,000+", label: "Tanks Serviced" },
+              { stat: "4,200+", label: "Tanks Serviced" },
               { stat: "24/7", label: "Emergency Response" },
               { stat: "100%", label: "Licensed & Insured" },
             ].map((item) => (

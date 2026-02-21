@@ -1,6 +1,6 @@
 const stats = [
   { value: "20+", label: "Years Experience" },
-  { value: "5,000+", label: "Tanks Serviced" },
+  { value: "4,200+", label: "Tanks Serviced" },
   { value: "24/7", label: "Emergency Service" },
   { value: "100%", label: "Licensed & Insured" },
 ];

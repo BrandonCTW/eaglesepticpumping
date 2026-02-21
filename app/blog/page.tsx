@@ -29,6 +29,7 @@ const categoryColors: Record<string, string> = {
   Regulations: "bg-orange-50 text-orange-700",
   Commercial: "bg-indigo-50 text-indigo-700",
   Repairs: "bg-red-50 text-red-700",
+  Education: "bg-cyan-50 text-cyan-700",
 };
 
 const breadcrumbSchema = {
