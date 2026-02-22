@@ -25,3 +25,15 @@
     @apply mx-auto max-w-7xl;
   }
 }
+
+/* Unlayered: overrides Tailwind pb-[68px] to account for safe-area-inset-bottom
+   on devices with a home indicator (iPhone X+). The fixed MobileCTABar grows by
+   env(safe-area-inset-bottom) via inline style; the body must match. */
+body {
+  padding-bottom: calc(68px + env(safe-area-inset-bottom, 0px));
+}
+@media (min-width: 1024px) {
+  body {
+    padding-bottom: 0;
+  }
+}
