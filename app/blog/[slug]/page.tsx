@@ -8,6 +8,18 @@ import { posts, getPostBySlug, getRelatedPosts, categoryToSlug, type BlogSection
 import { services, getServiceBySlug, PHONE, PHONE_HREF } from "@/lib/services";
 import TableOfContents, { type TocEntry } from "@/components/TableOfContents";
 
+const categoryColors: Record<string, string> = {
+  Maintenance: "bg-accent-50 text-accent-700",
+  Troubleshooting: "bg-amber-50 text-amber-700",
+  "Cost & Pricing": "bg-brand-50 text-brand-700",
+  "Local Guide": "bg-purple-50 text-purple-700",
+  "Hiring Guide": "bg-teal-50 text-teal-700",
+  Regulations: "bg-orange-50 text-orange-700",
+  Commercial: "bg-indigo-50 text-indigo-700",
+  Repairs: "bg-red-50 text-red-700",
+  Education: "bg-cyan-50 text-cyan-700",
+};
+
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -384,7 +396,11 @@ export default async function BlogPostPage({ params }: Props) {
                       />
                     </div>
                     <div className="flex flex-1 flex-col p-5">
-                      <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
+                      <span
+                        className={`inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold ${
+                          categoryColors[rel.category] ?? "bg-gray-100 text-gray-600"
+                        }`}
+                      >
                         {rel.category}
                       </span>
                       <h3 className="mt-2 font-bold text-gray-900 leading-snug group-hover:text-brand-700">
