@@ -7796,6 +7796,321 @@ export const posts: BlogPost[] = [
       "new-system-installation",
     ],
   },
+  {
+    slug: "how-does-a-septic-system-work",
+    title: "How Does a Septic System Work? A Complete Guide for Homeowners",
+    metaTitle: "How Does a Septic System Work? Complete Homeowner's Guide | Eagle Septic",
+    metaDescription:
+      "Learn exactly how a septic system works — from the tank's 3-layer treatment process to the drain field's final filtration. A practical guide for homeowners who want to understand and protect their system.",
+    publishedAt: "2026-02-22",
+    updatedAt: "2026-02-22",
+    category: "Education",
+    readingTime: "10 min read",
+    excerpt:
+      "About 1 in 5 U.S. homes runs on a septic system — but most homeowners couldn't explain how one actually works. This guide walks through every stage: what happens inside the tank, how the drain field filters effluent, why bacteria are essential, and what your role is in keeping the system healthy.",
+    coverImage: {
+      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&q=80&fit=crop&crop=center",
+      alt: "Green grass lawn over a residential septic drain field on a sunny day",
+    },
+    sections: [
+      {
+        type: "paragraph",
+        text: "About 21% of U.S. homes — and a much higher percentage of rural California properties — treat their own wastewater through an onsite septic system. Yet most homeowners who live above one couldn't describe what it actually does. That knowledge gap is expensive: septic system failures that start as small maintenance lapses can turn into $10,000–$50,000 replacement projects.",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding how your system works isn't just interesting — it's the foundation of every maintenance decision you'll ever make. This guide explains the complete process, from the moment wastewater leaves your house to the moment clean water re-enters the water table.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Two Core Components",
+      },
+      {
+        type: "paragraph",
+        text: "Every conventional septic system has two main parts: the septic tank and the drain field (also called a leach field or absorption field). Together they handle the two stages of onsite wastewater treatment — settling and separation in the tank, then biological filtration in the soil.",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Septic tank: A watertight underground container — typically 1,000–1,500 gallons for a residential home — made of concrete, fiberglass, or polyethylene. All wastewater from your house flows here first.",
+          "Drain field: A network of perforated pipes buried in gravel-filled trenches. Liquid effluent from the tank slowly seeps into the surrounding soil, where bacteria and the natural filtering action of dirt and sand complete the treatment.",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "The system in one sentence",
+        text: "The septic tank separates solids from liquids. The drain field filters the liquid. The soil finishes the job. Each stage depends on the one before it working correctly.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Happens Inside the Septic Tank",
+      },
+      {
+        type: "paragraph",
+        text: "When wastewater flows from your house into the septic tank, three distinct layers form naturally inside the tank — and they have to stay in balance for the system to function.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Layer 1: Scum (Top)",
+      },
+      {
+        type: "paragraph",
+        text: "Fats, oils, and grease — collectively called FOG — are less dense than water. They float to the surface and form the scum layer. Anything that doesn't dissolve and is lighter than water ends up here: cooking grease, soap residue, and some paper products. The scum layer is kept in check by anaerobic bacteria, but it grows over time and must be removed during pumping.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Layer 2: Effluent (Middle)",
+      },
+      {
+        type: "paragraph",
+        text: "The middle layer is partially treated liquid — called effluent. This is the liquid that flows out of the tank through the outlet baffle and into the drain field. Healthy effluent is relatively clear, though not clean by drinking water standards. The outlet baffle is specifically designed to let only liquid flow out while keeping solids and scum inside the tank.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Layer 3: Sludge (Bottom)",
+      },
+      {
+        type: "paragraph",
+        text: "Heavy solids sink to the bottom and accumulate as sludge. Anaerobic bacteria — bacteria that thrive without oxygen — work continuously to break sludge down, but they can't eliminate it entirely. The sludge layer grows slowly but steadily. When it gets too thick, it begins to consume the effective liquid volume of the tank, and solid particles start escaping into the effluent — which clogs the drain field.",
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Why pumping isn't optional",
+        text: "Pumping removes accumulated sludge and scum before they overflow into the drain field. Once solids reach the drain field, they clog the perforated pipes and saturate the soil. At that point, the drain field — which can cost $5,000–$25,000 to replace — is often damaged beyond repair. Regular pumping is far cheaper than drain field replacement.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Role of Bacteria",
+      },
+      {
+        type: "paragraph",
+        text: "Your septic system is a living ecosystem. Billions of anaerobic bacteria inside the tank are responsible for breaking down organic waste. These bacteria do not need to be added — they're naturally present in human waste and colonize the tank automatically after installation.",
+      },
+      {
+        type: "paragraph",
+        text: "Maintaining a healthy bacterial population is one of the most critical things you can do for your system. The bacteria are killed or disrupted by: antibacterial soaps and cleaners, bleach (especially in large quantities), chemical drain cleaners like Drano, medications flushed down the toilet, and excessive water loads that flush the tank before treatment completes.",
+      },
+      {
+        type: "paragraph",
+        text: "When bacterial populations crash, organic solids accumulate faster than normal, the sludge layer builds up rapidly, and untreated waste begins passing through the tank into the drain field.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How the Drain Field Finishes the Job",
+      },
+      {
+        type: "paragraph",
+        text: "Effluent from the tank flows by gravity (or in some systems, by pump) into the drain field. The perforated pipes distribute the liquid slowly across a wide area of gravel-filled trenches. From the gravel, the effluent percolates downward through the soil.",
+      },
+      {
+        type: "paragraph",
+        text: "The soil itself is the final treatment stage. As effluent moves through the top 2–4 feet of soil, three processes occur simultaneously:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Physical filtration: Soil particles physically strain bacteria, viruses, and suspended solids from the effluent.",
+          "Biological treatment: Soil bacteria and microorganisms consume remaining organic material and pathogens.",
+          "Chemical treatment: Soil minerals adsorb and neutralize remaining contaminants before the water reaches the groundwater table.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "For this process to work, the soil must have the right structure — not too dense (which prevents percolation) and not too sandy (which doesn't filter enough). That's why a percolation test ('perc test') is required before any new septic system can be installed.",
+      },
+      {
+        type: "callout",
+        variant: "tip",
+        title: "The drain field is irreplaceable",
+        text: "The tank can be pumped, repaired, or replaced. The drain field relies on the biological health of the surrounding soil — and once that soil becomes saturated with solids or biomat, it often cannot be rehabilitated. Protecting the drain field is the single most important ongoing goal of septic maintenance.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Complete Flow: Step by Step",
+      },
+      {
+        type: "paragraph",
+        text: "Here's the full sequence from flush to filtration:",
+      },
+      {
+        type: "list",
+        ordered: true,
+        items: [
+          "Wastewater leaves your home through the main sewer line and enters the septic tank inlet.",
+          "Solids settle to the bottom (sludge), grease floats to the top (scum), and the middle liquid layer forms (effluent).",
+          "Anaerobic bacteria in the tank break down organic material in the sludge continuously.",
+          "The outlet baffle allows only the middle liquid layer to exit the tank toward the drain field.",
+          "Effluent flows into distribution pipes and disperses through perforated drain field pipes.",
+          "Liquid slowly percolates downward through gravel and into the native soil.",
+          "Soil microorganisms, physical filtration, and chemical adsorption complete the treatment.",
+          "Clean water enters the groundwater table — completing the cycle.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Types of Septic Systems",
+      },
+      {
+        type: "paragraph",
+        text: "The conventional gravity system described above is the most common, but several alternatives exist — each designed for specific soil conditions, lot sizes, or environmental requirements.",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Conventional gravity system: Effluent flows by gravity from tank to drain field. Works on properties with adequate soil depth, proper perc rate, and sufficient lot size. Most common and least expensive to install and maintain.",
+          "Pressure distribution system: Uses a pump and timer to dose effluent into the drain field in controlled intervals. Gives the soil time to rest and recover between doses — often extends drain field life.",
+          "Aerobic treatment unit (ATU): Injects air into the treatment chamber to enable aerobic bacteria to work alongside anaerobic bacteria. Produces significantly cleaner effluent. Required on some lots where conventional systems aren't permitted. Higher install cost and requires quarterly maintenance contracts.",
+          "Mound system: The drain field is constructed above the native soil level, inside an engineered mound of imported fill. Required where the soil is too shallow, too dense, or too close to groundwater for a conventional system.",
+          "Chamber system: Uses plastic arch chambers instead of gravel in drain field trenches. Provides more storage volume and is easier to install. Often used in areas where crushed stone is unavailable or expensive.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Not to Put Into Your System",
+      },
+      {
+        type: "paragraph",
+        text: "Your septic system can handle human waste and toilet paper. Everything else is a potential problem. The most damaging inputs fall into three categories:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Solids that don't break down: 'Flushable' wipes (they're not), paper towels, feminine hygiene products, dental floss, cotton balls, condoms, and medication packaging. These accumulate in the tank and must be physically pumped out — or they eventually escape into the drain field.",
+          "Chemicals that kill bacteria: Bleach (in large amounts), antibacterial soap, chemical drain cleaners (Drano, Liquid-Plumr), paint, solvents, and pesticides. Even small amounts of some chemicals can significantly reduce bacterial populations in the tank.",
+          "Grease and fats: Cooking grease, bacon fat, and food oils solidify inside the tank and pipes. They accelerate scum layer growth and can cause inlet pipe clogs that back up sewage into the house.",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Garbage disposals increase pumping frequency",
+        text: "Food waste dramatically increases the rate of sludge accumulation. Homes with garbage disposals typically need pumping every 1–2 years rather than every 3–5 years. If your home has a disposal, plan accordingly.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Signs Your System Is Healthy vs. Struggling",
+      },
+      {
+        type: "paragraph",
+        text: "A healthy septic system is essentially invisible — you don't notice it. Warning signs appear when something is wrong. Know what to look for:",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Signs of a Healthy System",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Drains clear normally throughout the house",
+          "No sewage odors inside or outside",
+          "Drain field area looks like the rest of the lawn — no unusually lush patches",
+          "No wet or soggy spots above the drain field",
+          "Tank interior shows clear three-layer separation at pumping",
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Warning Signs of a Failing System",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Slow drains throughout the house (not just one fixture — that's usually a local clog)",
+          "Gurgling sounds from drains or toilets",
+          "Sewage odors indoors — especially from floor drains or lower-level fixtures",
+          "Sewage odors outdoors near the tank or drain field",
+          "Unusually green, lush grass over the drain field — the grass is getting fertilized by untreated effluent",
+          "Standing water or wet, spongy ground over the drain field",
+          "Sewage backup into lowest fixtures (shower drains, basement floor drains)",
+        ],
+      },
+      {
+        type: "callout",
+        variant: "warning",
+        title: "Don't wait for sewage backup",
+        text: "By the time you see sewage backing up into your house, the system is at or past full failure. Address any of the warning signs above promptly — they're early indicators that are far cheaper to fix than a full failure.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Your Maintenance Responsibilities",
+      },
+      {
+        type: "paragraph",
+        text: "Septic systems require minimal but consistent maintenance. There are three things you control that determine how long your system lasts:",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "1. Pump on Schedule",
+      },
+      {
+        type: "paragraph",
+        text: "Most household septic tanks need pumping every 3–5 years. The exact interval depends on tank size, number of occupants, and whether you have a garbage disposal. A 1,000-gallon tank for a family of four typically needs service every 3 years. A 1,500-gallon tank for two people might go 5–7 years. Don't rely on odors or symptoms to tell you when to pump — by then, damage may already be occurring.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "2. Protect the Drain Field",
+      },
+      {
+        type: "paragraph",
+        text: "The drain field must be kept clear of anything that compacts the soil or introduces roots. Never park vehicles or heavy equipment over it. Keep deep-rooted trees and shrubs at least 20–30 feet away. Divert roof runoff and surface water drainage away from the drain field area — excess water prevents the soil from absorbing and treating effluent properly.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "3. Be Intentional About What Enters the System",
+      },
+      {
+        type: "paragraph",
+        text: "Every flush, every drain, and every wash cycle affects the biological balance inside your tank. Minimize antibacterial product use. Never flush non-biodegradable items. Spread laundry loads throughout the week rather than running multiple loads in one day — large water surges can push inadequately treated effluent out of the tank before bacteria finish the job.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "When to Call a Professional",
+      },
+      {
+        type: "paragraph",
+        text: "Septic professionals should be involved at four points: when the system is installed (permit and design), on the regular pumping schedule, when you notice any of the warning signs described above, and when you're buying or selling a property with a septic system.",
+      },
+      {
+        type: "paragraph",
+        text: "If your system is showing warning signs, don't treat it as something that will resolve on its own. Slow drains and odors are symptoms of an underlying problem — often a sludge buildup that a pump-out will resolve. But if the drain field is already compromised, early intervention is the difference between a $400 pump-out and a $20,000 drain field replacement.",
+      },
+      {
+        type: "paragraph",
+        text: "Eagle Septic serves homeowners throughout Stanislaus, San Joaquin, and Merced counties. If you're unsure when your system was last serviced, or you're seeing any of the warning signs above, call us for an assessment. A 30-minute inspection is far less disruptive than a system failure.",
+      },
+    ],
+    relatedServiceSlugs: [
+      "septic-tank-pumping",
+      "septic-inspections",
+      "drain-field-repair",
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

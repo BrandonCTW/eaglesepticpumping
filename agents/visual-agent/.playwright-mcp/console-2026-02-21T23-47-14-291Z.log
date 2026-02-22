@@ -1,0 +1,82 @@
+[  298280ms] [ERROR] ./app/service-areas/page.tsx
+Error:   x Expected '</', got ')'
+     ,-[/Users/brandonhopkins/Projects/seo/eaglesepticpumping/app/service-areas/page.tsx:128:1]
+ 125 |                             View service details →
+ 126 |                           </span>
+ 127 |                         </a>
+ 128 |                       ))}
+     :                        ^
+ 129 |                     </div>
+ 130 |                   </div>
+ 131 |                 );
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/service-areas/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  299637ms] [ERROR] ./app/service-areas/page.tsx
+Error:   x Expected '</', got ')'
+     ,-[/Users/brandonhopkins/Projects/seo/eaglesepticpumping/app/service-areas/page.tsx:128:1]
+ 125 |                             View service details →
+ 126 |                           </span>
+ 127 |                         </a>
+ 128 |                       ))}
+     :                        ^
+ 129 |                     </div>
+ 130 |                   </div>
+ 131 |                 );
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/service-areas/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  299697ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/services?_rsc=lv05x:0
+[  299776ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/services:0
+[  300066ms] ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   x Expected '</', got ')'
+     ,-[/Users/brandonhopkins/Projects/seo/eaglesepticpumping/app/service-areas/page.tsx:128:1]
+ 125 |                             View service details →
+ 126 |                           </span>
+ 127 |                         </a>
+ 128 |                       ))}
+     :                        ^
+ 129 |                     </div>
+ 130 |                   </div>
+ 131 |                 );
+     `----
+
+
+Caused by:
+    Syntax Error
+    at processResult (file:///Users/brandonhopkins/Projects/seo/eaglesepticpumping/node_modules/next/dist/compiled/webpack/bundle5.js:29:407086)
+    at <unknown> (file:///Users/brandonhopkins/Projects/seo/eaglesepticpumping/node_modules/next/dist/compiled/webpack/bundle5.js:29:408881)
+    at <unknown> (file:///Users/brandonhopkins/Projects/seo/eaglesepticpumping/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/brandonhopkins/Projects/seo/eaglesepticpumping/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/brandonhopkins/Projects/seo/eaglesepticpumping/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[  300067ms] [ERROR] ./app/service-areas/page.tsx
+Error:   x Expected '</', got ')'
+     ,-[/Users/brandonhopkins/Projects/seo/eaglesepticpumping/app/service-areas/page.tsx:128:1]
+ 125 |                             View service details →
+ 126 |                           </span>
+ 127 |                         </a>
+ 128 |                       ))}
+     :                        ^
+ 129 |                     </div>
+ 130 |                   </div>
+ 131 |                 );
+     `----
+
+Caused by:
+    Syntax Error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[  310701ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/_next/static/webpack/28408eafb032ba23.webpack.hot-update.json:0
+[  310701ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[  310816ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/_next/static/webpack/28408eafb032ba23.webpack.hot-update.json:0
+[  310816ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[  311175ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/_next/static/webpack/28408eafb032ba23.webpack.hot-update.json:0
+[  311175ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[  311712ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/_next/static/webpack/28408eafb032ba23.webpack.hot-update.json:0
+[  311712ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
