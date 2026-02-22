@@ -200,3 +200,18 @@ The HomepageAnswerHub already presents the top 5 homeowner questions as fully-vi
 `Hero → Guides → Q&A Hub → Health Check → Services → Service Area → Contact`
 [2026-02-21 18:18:43] Run #2 finished
 [2026-02-21 18:18:48] Run #3 starting (model: sonnet)
+Done. Run #37: removed the `<Services />` component from the homepage.
+
+**What changed:** The 6-card "Complete Septic Services" grid is gone from the homepage. It was the largest company-promotion block on the page, sitting immediately after three informational sections and snapping the reader back into company-catalog mode.
+
+**Homepage flow is now:**
+1. Hero
+2. Septic System Guides (3 recent posts)
+3. Common Questions Answered (5 Q&A cards)
+4. Septic Health Check (3-column self-assessment)
+5. Service Area (geographic coverage + zip checker)
+6. Contact
+
+Informational content now runs uninterrupted from Hero through the health check. Services are still accessible from the nav, and every content section already links to the services that matter in context.
+[2026-02-21 18:19:58] Run #3 finished
+[2026-02-21 18:20:03] Run #4 starting (model: sonnet)
