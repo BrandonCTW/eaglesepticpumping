@@ -94,3 +94,27 @@ The site previously had a blog but no clear "this is an educational resource" si
 **What changed:** The homepage now immediately answers "how does a septic system work?", "what are warning signs?", "how much does it cost?", "what happens if I never pump?", "what can't I flush?", and "why does it back up after rain?" — the six most common homeowner questions — before ever talking about services. Includes a footer link to `/resources` for deeper exploration.
 [2026-02-21 17:56:07] Run #1 finished
 [2026-02-21 17:56:12] Run #2 starting (model: sonnet)
+Done. Here's what was implemented:
+
+**Run #29: Septic Health Check diagnostic section**
+
+A new `SepticHealthCheck` component inserted between the Q&A hub and the Services section. It's a 3-column self-assessment tool:
+
+- **All Clear** (green) — signals of a healthy system with a link to the pumping schedule guide
+- **Schedule Service** (amber) — yellow-flag situations linking to the warning signs article  
+- **Call Now** (red) — emergency signals linking to the emergency guide
+
+Each column has a status badge, icon, a headline, 5 diagnostic signals, and a "read more" link to the relevant blog post. A footer note links to `/resources` and `/faq`.
+
+**Why this is high-priority:** The page's middle section was previously 4 consecutive company-focused sections (Services → WhyChooseUs → Testimonials → ServiceArea). This new section breaks that up and gives the page a "homeowner resource" feel right after the Q&A cards — the first thing a visitor sees after reading quick answers is "now identify your situation," not "here are our services."
+[2026-02-21 17:59:07] Run #2 finished
+[2026-02-21 17:59:12] Run #3 starting (model: sonnet)
+[2026-02-21 18:00:47] Claude command interrupted or failed
+[2026-02-21 18:00:48] ==========================================
+[2026-02-21 18:00:48] Agent: Assistant
+[2026-02-21 18:00:48] Model: sonnet
+[2026-02-21 18:00:48] Workspace: /Users/brandonhopkins/Projects/seo/eaglesepticpumping/agents/assistant
+[2026-02-21 18:00:48] Stop on complete: false
+[2026-02-21 18:00:48] Max loops: 5 (0=infinite)
+[2026-02-21 18:00:48] ==========================================
+[2026-02-21 18:00:48] Run #1 starting (model: sonnet)

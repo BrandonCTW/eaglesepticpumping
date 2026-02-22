@@ -140,12 +140,12 @@ export default function Home() {
         <Hero />
         <HomepageAnswerHub />
         <SepticHealthCheck />
+        <RecentPosts />
+        <FAQ />
         <Services />
         <WhyChooseUs />
         <Testimonials />
         <ServiceArea />
-        <FAQ />
-        <RecentPosts />
         <ContactSection />
       </main>
       <Footer />
