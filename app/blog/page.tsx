@@ -88,10 +88,12 @@ export default function BlogPage() {
                 <Link
                   key={c.slug}
                   href={`/blog/category/${c.slug}`}
-                  className="inline-flex items-center gap-1 rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-medium text-gray-600 hover:border-brand-400 hover:text-brand-700 transition-colors"
+                  className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium transition-opacity hover:opacity-75 ${
+                    categoryColors[c.category] ?? "bg-gray-100 text-gray-600"
+                  }`}
                 >
                   {c.category}
-                  <span className="rounded-full bg-gray-200 px-1.5 py-0.5 text-xs text-gray-500">
+                  <span className="rounded-full bg-black/10 px-1.5 py-0.5 text-xs leading-none">
                     {c.count}
                   </span>
                 </Link>
