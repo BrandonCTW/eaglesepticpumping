@@ -6,6 +6,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import ServiceArea from "@/components/ServiceArea";
 import FAQ from "@/components/FAQ";
+import RecentPosts from "@/components/RecentPosts";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { PHONE, EMAIL } from "@/lib/services";
@@ -140,6 +141,7 @@ export default function Home() {
         <Testimonials />
         <ServiceArea />
         <FAQ />
+        <RecentPosts />
         <ContactSection />
       </main>
       <Footer />
