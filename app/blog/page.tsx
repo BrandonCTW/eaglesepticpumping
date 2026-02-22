@@ -111,7 +111,7 @@ export default function BlogPage() {
               className="group block overflow-hidden rounded-2xl border border-gray-200 bg-gray-50 transition-colors hover:border-brand-300 hover:bg-brand-50"
             >
               {/* Cover image */}
-              <div className="relative h-56 w-full sm:h-72 lg:h-80">
+              <div className="relative h-40 w-full sm:h-72 lg:h-80">
                 <Image
                   src={featured.coverImage.src}
                   alt={featured.coverImage.alt}
