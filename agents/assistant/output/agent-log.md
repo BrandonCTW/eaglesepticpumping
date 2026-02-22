@@ -85,3 +85,12 @@ The site previously had a blog but no clear "this is an educational resource" si
 [2026-02-21 17:53:47] Max loops: 5 (0=infinite)
 [2026-02-21 17:53:47] ==========================================
 [2026-02-21 17:53:47] Run #1 starting (model: sonnet)
+✅ **Completed**
+
+- Created `components/HomepageAnswerHub.tsx` — a 6-card "Homeowner Answer Center" grid with questions, blurbs, icons, and links to existing blog posts
+- Inserted between `<Hero />` and `<Services />` in `app/page.tsx` — now the very first content below the hero is informational, not company-focused
+- Committed as Run #28 (`8827454`)
+
+**What changed:** The homepage now immediately answers "how does a septic system work?", "what are warning signs?", "how much does it cost?", "what happens if I never pump?", "what can't I flush?", and "why does it back up after rain?" — the six most common homeowner questions — before ever talking about services. Includes a footer link to `/resources` for deeper exploration.
+[2026-02-21 17:56:07] Run #1 finished
+[2026-02-21 17:56:12] Run #2 starting (model: sonnet)

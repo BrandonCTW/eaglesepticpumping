@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import HomepageAnswerHub from "@/components/HomepageAnswerHub";
+import SepticHealthCheck from "@/components/SepticHealthCheck";
 import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
@@ -138,6 +139,7 @@ export default function Home() {
       <main>
         <Hero />
         <HomepageAnswerHub />
+        <SepticHealthCheck />
         <Services />
         <WhyChooseUs />
         <Testimonials />
